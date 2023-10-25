@@ -255,7 +255,6 @@ class _SecondBarState extends State<SecondBar> {
       print('Date selection canceled.');
     }
   }
-
 }
 
 class BarChartModel{
