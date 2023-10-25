@@ -1,0 +1,185 @@
+name: gomeal
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.3.8
+  google_fonts: ^5.1.0
+  intl: ^0.17.0
+  pie_chart: ^5.0.0
+  charts_flutter: ^0.12.0
+  animations: ^2.0.8
+  animator:
+  http:
+  fl_chart: ^0.63.0
+  syncfusion_flutter_charts: ^19.2.62
+  carousel_slider: ^4.0.0
+  smooth_page_indicator:
+  page_view_indicators:
+  geolocator: ^10.1.0
+  image_picker:
+  permission_handler:
+  dotted_border:
+  file_picker:
+  open_file:
+  location: ^5.0.0
+  geocoding: ^2.1.0
+  fluttertoast: ^8.0.7
+  google_maps_flutter:
+  multi_select_flutter:
+  multiselect:
+  states_rebuilder:
+  dropdown_multi_select:
+  flutter_time_picker_spinner:
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/backorange.jpg
+    - assets/images/background-removebg-preview.png
+    - assets/images/burger1.jpeg
+    - assets/images/driver.png
+    - assets/images/favchicken.jpg
+    - assets/images/noodles.jpeg
+    - assets/images/pizza1.png
+    - assets/images/soup.jpg
+    - assets/images/fish.jpeg
+    - assets/images/fried-chicken.png
+    - assets/images/shawarma.png
+    - assets/images/taco.png
+    - assets/images/fast-food.png
+    - assets/images/driver.jpg
+    - assets/images/bar.jpeg
+    - assets/images/bar1.png
+    - assets/images/girl1.jpeg
+    - assets/images/girl2.jpeg
+    - assets/images/girl3.jpeg
+    - assets/images/gilr4.jpg
+    - assets/images/boy1.jpeg
+    - assets/images/boy2.jpeg
+    - assets/images/boy4.jpg
+    - assets/images/boy3.jpeg
+    - assets/images/icon.jpg
+    - assets/images/burger.jpeg
+    - assets/images/pizzaicon.jpg
+    - assets/images/fishicon.png
+    - assets/images/legicon.png
+    - assets/images/shawarmaicon.png
+    - assets/images/cupc.jpeg
+    - assets/images/burger2.jpeg
+    - assets/images/burger3.jpeg
+    - assets/images/soup.png
+    - assets/images/noodles.png
+    - assets/images/purpleback.jpg
+    - assets/images/burger2.png.crdownload.png
+    - assets/images/backgirl.png
+    - assets/images/burgerfire.jpg
+    - assets/images/blackback.jpg
+    - assets/images/girlback2.png
+    - assets/images/logo.jpg
+    - assets/images/food1.jpg
+    - assets/images/rest1.jpeg
+    - assets/images/rest2.jpg
+    - assets/images/rest3.jpg
+    - assets/images/rest4.jpg
+    - assets/images/excel-removebg-preview.png
+    - assets/images/csv-removebg-preview.png
+    - assets/images/fun-removebg-preview.png
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+      - family: Roboto Slab
+        fonts:
+          - asset: assets/fonts/RobotoSlab-VariableFont_wght.ttf
+
+      - family: Mitr
+        fonts:
+          - asset: assets/fonts/Mitr-Medium.ttf
+
+      - family: Poppins
+        fonts:
+          - asset: assets/fonts/Poppins-SemiBold.ttf
+
+      - family: Archivo Black
+        fonts:
+          - asset: assets/fonts/ArchivoBlack-Regular.ttf
+
+      - family: RenogareSoft
+        fonts:
+          - asset: assets/fonts/RenogareSoft-Regular.ttf
+
+      - family: DarkerGrotesque
+        fonts:
+          - asset: assets/fonts/DarkerGrotesque-ExtraBold.ttf
+
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
